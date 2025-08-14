@@ -64,10 +64,10 @@ buttons.forEach((button) => {
             }if (operator === "/") {
                 result = num1 / num2;
             }
-            display.innerText = `${result}`;
+            display.innerText = `${num1}${operator}${num2}=${result}`;
         }
     }
     });
 });
-
+// Want to add multi-digit (array push?) and remainder out of 100 (% ---> /100)
 /*-------------------------------- Functions --------------------------------*/
